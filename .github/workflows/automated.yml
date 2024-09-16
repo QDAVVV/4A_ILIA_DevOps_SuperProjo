@@ -1,8 +1,14 @@
 name: Automated
 
-on: [push]
+on:
+  push:
+    branches:
+    - main
 
 jobs:
-  steps:
-  - name: Writes "New Push!" every time something is pushed.
-    run: echo "New Push !"
+  notify:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: New push
+      run: echo "New Push !"
