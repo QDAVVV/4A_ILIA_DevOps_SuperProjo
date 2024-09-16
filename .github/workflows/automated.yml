@@ -7,8 +7,6 @@ on:
 
 jobs:
   notify:
-    runs-on: ubuntu-latest
-    
     steps:
     - name: New push
       run: echo "New Push !"
