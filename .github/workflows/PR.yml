@@ -1,0 +1,13 @@
+name: Hello PR
+
+on: pull_request
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: build
+        run: actions/checkout@v3
+             actions/setup-python@v4
+             python main.py
