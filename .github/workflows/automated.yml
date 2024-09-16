@@ -5,4 +5,4 @@ on: [push]
 jobs:
   steps:
   - name: Writes "New Push!" every time something is pushed.
-    run: echo New Push !
+    run: echo "New Push !"
