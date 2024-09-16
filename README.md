@@ -14,4 +14,4 @@ Ils seront évalués par [Jérome Massard](https://github.com/JeromeMSD).
 
 ## Statuts actions
 
-Ici des trucs étranges sont fait
+Ici des trucs anodins sont fait
