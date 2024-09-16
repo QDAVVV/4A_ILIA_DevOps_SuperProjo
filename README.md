@@ -14,4 +14,4 @@ Ils seront évalués par [Jérome Massard](https://github.com/JeromeMSD).
 
 ## Statuts actions
 
-Ici on fait des trucs pas ouf
+Ici des trucs pas mal sont fait
