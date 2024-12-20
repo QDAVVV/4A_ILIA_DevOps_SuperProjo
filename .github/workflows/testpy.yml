@@ -17,4 +17,4 @@ jobs:
 
           pytest_args: "TD4/test.py"
           # Requirements file to install test dependencies
-          requirements_file: "requirements.txt"
+          requirements_file: "TD4/requirements.txt"
