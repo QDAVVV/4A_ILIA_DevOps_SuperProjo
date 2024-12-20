@@ -1,0 +1,21 @@
+services:
+  frontend:
+    image: nginx
+    ports:
+      - "8080:80"
+    environment: 
+      - CONFIG_KEY = "config"
+      - EXAMPLE_KEY= "truc"
+      - DEMO_VAR   = "demo"
+    networks:
+      - myapp-network
+
+  backend:
+    image: python
+
+  redis:
+    image: redis
+
+networks:
+  # La présence de la ligne suivante suffit pour demander la création du réseau.
+  myapp-network: {}
