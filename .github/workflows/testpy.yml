@@ -14,6 +14,7 @@ jobs:
       uses: paolorechia/fast-pytest-github-action@v1.0
       with:
         # Args passed to pytest, provided as string
+
         pytest_args: "TD4/test.py"
         # Requirements file to install test dependencies
         requirements_file: "requirements.txt"
